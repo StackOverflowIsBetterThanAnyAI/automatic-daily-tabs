@@ -5,157 +5,22 @@ ATTACKMODE HID
 DELAY 5000
 WINDOWS r
 DELAY 500
+# open browser
 STRING chrome.exe
 ENTER
 DELAY 2000
 
-STRING https://music.youtube.com/#
+# add websites with this pattern
+STRING https://google.com/#
 ENTER
 DELAY 1000
+# open new tab
 CTRL t
 
-STRING https://www.youtube.com/#
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://www.twitch.tv/#
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://www.dazn.com/de-DE/home
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://www.instagram.com/#
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://twitter.com/home
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://www.facebook.com/#
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://www.reddit.com/#
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://github.com/#
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://www.hltv.org/#
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://web.whatsapp.com/
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://mail.google.com/mail/u/0/#inbox
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://mail.google.com/mail/u/1/#inbox
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://webmail.th-deg.de/
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://ilearn.th-deg.de/
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://www.codewars.com/dashboard
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://www.theodinproject.com/dashboard
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://www.freecodecamp.org/learn/
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://nextjs.org/learn?utm_source=next-site&utm_medium=navbar&utm_campaign=home
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://www.classcentral.com/course/edx-programming-for-the-web-with-javascript-8518
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://www.coursera.org/learn/web-app
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://www.coursera.org/learn/algorithms-part1
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://cssbattle.dev/#
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://flukeout.github.io/#
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://cssgridgarden.com/#de
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://codingfantasy.com/games/css-grid-attack
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://de.topps.com/#
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://www.ubisoft.com/de-de/game/rainbow-six/siege/marketplace?route=home
-ENTER
-DELAY 1000
-CTRL t
-
-STRING https://de.humblebundle.com/#
+STRING https://google.com/#
 ENTER
 DELAY 1000
 
 ATTACKMODE OFF
+
+# => remove all lines starting with a `#`
